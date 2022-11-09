@@ -6,22 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Iterative Design</title>
     <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,600,700,800,900' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
   </head>
   <body>
     <main>
-        <div class="header">
-            <h1 class="title">Iterative Design</h1>
-        </div>
-        <div class="background">
-            <img class="landing-img" src="./images/landing-page.png">
-        </div>
-        <div class="header">
-            <h2 class="title">Sketches</h2>
-            <p class="subtitle">Hover to zoom in!</p>
+        <div class="header" id="head">
+            <h1 class="title">ITERATIVE DESIGN</h1>
         </div>
         <div class="description">
-            <p>To begin our journey to recreate <strong>LifeAt</strong> we began sketching basic ideas individually</p>
+            <p>How can we use the iterative design process to develop an interactive interface for an emerging startup?
+                Explore our journey as we go through the entire process of mocking up a solution to a startup's
+                concept, including sketches, prototypes, and user testing.</p>
+        </div>
+        <div class="header">
+            <h2 class="title">THE STARTUP</h2>
+        </div>
+        <div class="description" id="start">
+            <p>We chose the startup <strong>LifeAt</strong>, which aims to serve as a "virtual getaway while you work". LifeAt's goal is to make doing work just a bit more relaxing and fun by 
+                providing users with relaxing video backgrounds like a scenic beach, lush forest, or bustling cafe to look at while they work. More information about LifeAt can be found on their <a href="https://www.ycombinator.com/companies/lifeat" target="_blank">Y Combinator page</a>.</p>
+            <br>
+            <p>
+                LifeAt's concept allows for a very broad user base: essentially any person who has a screen open while they work. However, we believe that
+                the concept would be most popular with individuals who work with larger screens or multiple screens, as they could have an entire screen devoted to LifeAt, and thus be
+                more easily immersed in their chosen video and audio. Based on this assumption, as well as the fact that the entire concept relies on having a large enough screen
+                to be able to easily see a selected background, we decided to design a desktop interface.
+            </p>
+        </div>
+        <div class="header">
+            <h2 class="title">SKETCHES</h2>
+            <p class="subtitle">Hover to zoom in!</p>
+        </div>
+        <div class="description" id="sketch">
+            <p>We began our journey to recreate <strong>LifeAt</strong> by sketching basic ideas individually in order to explore a variety of design choices.</p>
         </div>
         <div class="cards-container">
             <img class="card-img" src="./images/1_Screen_1.png">
@@ -29,40 +46,56 @@
             <img class="card-img" src="./images/1_Screen_3.png">
         </div>
         <div class="cards-container">
-            <img class="card-img" src="./images/1_Screen_1.png">
-            <img class="card-img" src="./images/1_Screen_2.png">
-            <img class="card-img" src="./images/1_Screen_3.png">
+            <img class="card-img" src="./images/sketch1.jpg">
+            <img class="card-img" src="./images/sketch2.jpg">
+            <img class="card-img" src="./images/sketch3.jpg">
         </div>
         <div class="cards-container">
-            <img class="card-img" src="./images/1_Screen_1.png">
-            <img class="card-img" src="./images/1_Screen_2.png">
-            <img class="card-img" src="./images/1_Screen_3.png">
+            <img class="card-img" src="./images/sketch4.jpg">
+            <img class="card-img" src="./images/sketch5.jpg">
+            <img class="card-img" src="./images/sketch6.jpg">
         </div>
         <div class="cards-container">
-            <img class="card-img" src="./images/1_Screen_1.png">
-            <img class="card-img" src="./images/1_Screen_2.png">
-            <img class="card-img" src="./images/1_Screen_3.png">
+            <img class="card-img" src="./images/sketch7.jpeg">
+            <img class="card-img" src="./images/sketch8.jpeg">
+            <img class="card-img" src="./images/sketch9.jpeg">
         </div>
         <div class="subheader">
-            <h4> Explored Ideas</h4>
+            <h4> Key Ideas Explored in Sketches</h4>
         </div>
         <div class="list-container">
             <ol>
-                <li>Thought about implementing a <strong>pomodoro timer</strong> to allow users to have some sort of focus timer integration</li>
-                <li>Basic screens we thought about included a <strong>lo-fi mode</strong>, a <strong>slideshow screen</strong>, and a <strong>white noise slide</strong></li>
-                <li>We also considered the possibility of a <strong>horizontal navigation bar</strong> with <strong>light/dark mode</strong></li>
-                <li>Here</li>
-                <li>Here</li>
-                <li>Here</li>
-                <li>Here</li>
-                <li>Here</li>
+                <li>A <strong>landing page</strong> that clearly displays (and links to) each of the key functionalities of the site</li>
+                <li>A <strong>pomodoro timer</strong> to allow users to have some sort of focus timer integration</li>
+                <li>Screens including a <strong>lo-fi mode</strong>, a <strong>slideshow page</strong>, and a <strong>white noise page</strong></li>
+                <li>A <strong>horizontal navigation bar</strong> with <strong>light/dark mode</strong></li>
+                <li>Different ways to select audio, and ways to integrate <strong>audio</strong> and <strong>video selection</strong></li>
+                <li><strong>"Take a Break"</strong> option, including a timer</li> and <strong>guided meditation</strong> options
+                <li>Social capabilities, including the option to <strong>schedule a break with a friend</strong></li>
+                <li>A <strong>minimized</strong> version, which could function as a side bar while you are doing other work on the screen</li>
             </ol>
         </div>
         <div class="header">
-            <h2 class="title">Wireframes</h2>
+            <h2 class="title">LOW-FIDELITY WIREFRAMES</h2>
+            <p class="subtitle">Hover to zoom in!</p>
         </div>
         <div class="description">
-            <p>After coming up with our sketches, we met as a group to decide concretely on the direction of our application in a <strong>lo-fi wireframe</strong></p>
+            <p>After creating a number of sketches, we discussed whether our sketches were effective at solving LifeAt's goals. We identified which 
+                features addressed these goals in the most direct and creative manner, and created a set of low-fidelity wireframes based on these ideas. <br><br> Key features of our wireframes include:
+            </p>
+            <div class="list-container" id="fix">
+                <ol>
+                    <li>A landing page to clearly display the different functionalities of the site</li>
+                    <li>A page for video and audio selection</li>
+                    <li>A break page with guided meditation videos</li>
+                    <li>A calendar page that allows users to schedule breaks with friends</li>
+                    <li>A minimized version of the friends page</li>
+                </ol>
+            </div>
+        </div>
+        <div class="cards-container">
+            <img class="card-img" src="./images/login.png">
+            <img class="card-img" src="./images/landing.png">
         </div>
         <div class="cards-container">
             <img class="card-img" src="./images/wireframe_1.png">
@@ -70,117 +103,120 @@
             <img class="card-img" src="./images/wireframe_3.png">
         </div>
         <div class="cards-container">
+            <img class="card-img" src="./images/break.png">
             <img class="card-img" src="./images/lifeat-friends1.png">
             <img class="card-img" src="./images/lifeat-friends2.png">
-            <img class="card-img" src="./images/lifeat-friends-minimized1.png">
-            <img class="card-img" src="./images/lifeat-friends-minimized2.png">
         </div>
-        <div class="subheader">
-            <h4>Interesting Conclusions</h4>
-        </div>
-        <div class="list-container">
-            <ol>
-                <li>We decided we wanted to have a feature to <strong>minimize</strong> the screen into a tab on the side for easier work-integration</li>
-                <li>We concluded the screen dedicated to a pomodoro timer did not make much sense because the whole point of the app was to <strong>escape</strong> instead of
-                <strong>focus</strong>, an ironic oversight</li>
-                <li>Here</li>
-                <li>Here</li>
-            </ol>
+        <div class="cards-container" id="fix2">
+            <img class="card-img" id="small" src="./images/lifeat-friends-minimized1.png">
+            <img class="card-img" id="small" src="./images/lifeat-friends-minimized2.png">
         </div>
         <div class="header">
-            <h2 class="title"><a href="https://www.figma.com/proto/tSUc659V4fQFwxksMbOoTC/Lo-Fi-Iterative-Design?node-id=21%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=21%3A2&show-proto-sidebar=1" target="_blank">
-                Preliminary Prototype
-            </a></h2>
+            <h2 class="title">INITIAL PROTOTYPE</h2>
         </div>
-        <div class="description">
-            <p>After creating a unified wireframe, we sought out to prototype our app using <strong>Figma</strong></p>
+        <div class="description" id="sketch">
+            <p>After critically evaluating our low-fidelity wireframes, we used Figma to refine and expand on them in the form of an interactive high-fidelity prototype. Watch the video below to see the main 
+                features of the prototype, or <a href="https://www.figma.com/proto/tSUc659V4fQFwxksMbOoTC/Lo-Fi-Iterative-Design?node-id=53%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=53%3A2&hide-ui=1" target="_blank">explore it yourself</a>!
+            </p>
+        </div>
+        <video controls width="600" muted>
+            <source src="./images/figma1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        <br>
+        <div class="cards-container">
+            <img class="card-img" id="proto" src="./images/og_hifi_8.png">
+            <img class="card-img" id="proto" src="./images/og_hifi_9.png">
+            <img class="card-img" id="proto" src="./images/og_hifi_10.png">
+            <img class="card-img" id="proto" src="./images/og_hifi_11.png">
+            <img class="card-img" id="proto" src="./images/og_hifi_12.png">
+            <img class="card-img" id="proto" src="./images/og_hifi_13.png">
         </div>
         <div class="cards-container">
-            <img class="card-img" src="./images/og_hifi_1.png">
-            <img class="card-img" src="./images/og_hifi_2.png">
-            <img class="card-img" src="./images/og_hifi_3.png">
-        </div>
-        <div class="cards-container">
-            <img class="card-img" src="./images/og_hifi_4.png">
-            <img class="card-img" src="./images/og_hifi_5.png">
-            <img class="card-img" src="./images/og_hifi_6.png">
-        </div>
-        <div class="cards-container">
-            <img class="card-img" src="./images/og_hifi_7.png">
-            <img class="card-img" src="./images/og_hifi_8.png">
-            <img class="card-img" src="./images/og_hifi_9.png">
-        </div>
-        <div class="cards-container">
-            <img class="card-img" src="./images/og_hifi_10.png">
-            <img class="card-img" src="./images/og_hifi_11.png">
-            <img class="card-img" src="./images/og_hifi_12.png">
-            <img class="card-img" src="./images/og_hifi_13.png">
+            <img class="card-img" id="proto" src="./images/og_hifi_7.png">
+            <img class="card-img" id="proto" src="./images/og_hifi_1.png">
+            <img class="card-img" id="proto" src="./images/og_hifi_6.png">
+            <img class="card-img" id="proto" src="./images/og_hifi_3.png">
+            <img class="card-img" id="proto" src="./images/og_hifi_4.png">
+            <img class="card-img" id="proto" src="./images/og_hifi_5.png">
         </div>
         <div class="subheader">
-            <h4 class="title">Critique Feedback</h4>
-            <p class="subtitle">(For above images)</p>
+            <h4 class="title">Critique</h4>
         </div>
-        <div class="list-container">
+        <div class="description" id="trim2">
+            <p>Our initial interactive prototype was evaluated by our peers in a group critique. This gave us
+                a significant amount of feedback, which is summarized below.
+            </p>
+        </div>
+        <div class="list-container" id="trim">
             <ol>
                 <li><strong>Home Button + Navigation</strong>
                     <ul class="indented">
-                        <li>The home button was not easy to find</li>
-                        <li>Could have included a dropdown for navigation</li>
-                        <li>Not enough controls for navigation</li>
+                        <li>The home button was difficult to find, and it's unclear what page it will link to</li>
+                        <li>A dropdown menu would be a more intuitive form of navigation</li>
+                        <li>There aren't enough controls for navigation-- only option is to return to the home page</li>
                     </ul>
                 </li>
                 <li><strong>Contrast</strong>
                     <ul class="indented">
-                        <li>Thin white text might be too inaccessible</li>
+                        <li>Thin white text could be inaccessible</li>
                         <li>Calendar is difficult to read</li>
-                        <li>Colorful background reduces contrast for text</li>
+                        <li>Colorful background makes it difficult to read text, particularly due to low opacity of text boxes</li>
                     </ul>
                 </li>
                 <li><strong>Miscellaneous</strong>
                     <ul class="indented">
-                        <li>Minimize button always leads to home page</li>
-                        <li>The calendar on the friend page is small</li>
-                        <li>White space in background is confusing</li>
-                        <li>Concept of timer was unclear</li>
-                        <li>Spelling errors</li>
+                        <li>Minimize button always leads to friends page</li>
+                        <li>The calendar on the friend page is small and thus difficult to utilize</li>
+                        <li>White/blank spaces in background selection page are confusing (note that this critique indicated that people were fundamentally misunderstanding the purpose of this page- thus, this is an issue of clearly demonstrating the goals of a page)</li>
+                        <li>Concept of pomodoro timer was unclear</li>
                     </ul>
                 </li>
             </ol>
+
         </div>
         <div class="header">
-            <h2 class="title"><a href="https://www.figma.com/proto/k61Sy11rurvyZB575Rj9Rv/Lo-Fi-Iterative-Design-(Copy)?node-id=53%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=53%3A2&hotspot-hints=0&hide-ui=1" target="_blank">
-                High Fidelity Mockup
-            </a></h2>
+            <h2 class="title">FINAL HIGH-FIDELITY PROTOTYPE</h2>
         </div>
-        <div class="spacer"></div>
-        <div class="subheader">
-            <h4 class="title">Addressing Feedback</h4>
+        <div class="description" id="trim3">
+            <p>After group critique, we fundamentally changed a number of our prototype's features.
+            </p>
         </div>
-        <div class="list-container">
+        <div class="list-container" id="trim4">
             <ol>
                 <li><strong>Home Button + Navigation</strong>
                     <ul class="indented">
-                        <li>The home button proved to be confusing and unnecessary so we removed it</li>
-                        <li>We implemented a new dropdown menu which drastically simplifies navigation and learnability</li>
+                        <li>We replaced the home button with a larger and more obvious "back to scene" button, that takes users back to their selected video. </li>
+                        <li>Our landing page seemed to only distract users from the primary functionality of the site, 
+                            which is audio and video selection. We fixed this by removing the landing page, and having the log in page link directly to the audio/video selection page. </li>
+                        <li>We implemented a new dropdown menu which drastically simplifies navigation and learnability.</li>
                     </ul>
                 </li>
                 <li><strong>Contrast</strong>
                     <ul class="indented">
-                        <li>To tackle contrast issues we first focused on making our text clear and bold across a dark background</li>
-                        <li>Additionally, we stopped using low opacity backgrounds on the calendar which made that section too inaccessible</li>
-                        <li>Furthermore, we designated specific pages to be "scene" pages to solve the contrast issues created by colorful background</li>
+                        <li>We used darker backgrounds and a heavier font weight to address contrast issues.</li>
+                        <li>We increased the opacity of elements of the calendar, making it significantly more readable.</li>
+                        <li>We designated specific pages to be "scene" pages to solve the contrast issues created by a variable, colorful background</li>
                     </ul>
                 </li>
                 <li><strong>Miscellaneous</strong>
                     <ul class="indented">
                         <li>We prototyped minimization options in all scenarios to reduce user confusion</li>
-                        <li>We removed the physical calendar entirely from the minimization menu to increase clarity</li>
-                        <li>By designating certain pages to specific scenes, it becomes clearer that the white space serves as the functionality</li>
-                        <li>We concluded that the point of the app was too take a break - and a focus timer made no sense in this context - it has been removed</li>
+                        <li>We removed the calendar feature from the minimized version of the "break with friends" page, as it was too difficult to interact with.</li>
+                        <li>By completely redesigning our audio/video selection pages, we eliminated the confusion regarding white/blank space and made it clear that the "background" is in fact a key feature.</li>
+                        <li>We concluded that the point of the app was to allow users to relax. A focus timer made no sense in this context, so we chose to remove it.</li>
                     </ul>
                 </li>
             </ol>
         </div>
+        <div class="description" id="sketch2">
+            <p> Watch the video below to see these changes in action, or <a href="https://www.figma.com/proto/k61Sy11rurvyZB575Rj9Rv/Lo-Fi-Iterative-Design-(Copy)?node-id=53%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=53%3A2&hotspot-hints=0&hide-ui=1" target="_blank">explore it yourself</a>!
+            </p>
+        </div>
+        <video controls width="600" muted>
+            <source src="./images/figma2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
         <div class="subheader">
             <h4 class="title">Interaction Principles</h4>
         </div>
@@ -210,9 +246,12 @@
             </ol>
         </div>
         <div class="header">
-            <h2 class="title">User Testing Experiment</h2>
+            <h2 class="title">USER TESTING EXPERIMENT</h2>
         </div>
-        <div class="spacer"></div>
+        <div class="description">
+            <p>After revising our prototype, we conducted a usability test through a remote user testing service to get additional feedback about our design. 
+            </p>
+        </div>
         <div class="subheader">
             <h4 class="title">Scenario</h4>
         </div>
@@ -224,25 +263,15 @@
             <br>
             <ol class="indented">
                 <li>Imagine you are a remote employee using our prototype to schedule a break with your friends before you start working again</li>
-                <li><strong>Main task: </strong> Set-up a relaxing Autumn work background, make sure to look through the different audio options we provide for your background video</li>
-                <li>Please think aloud while you go! It will be super helpful for us to hear your thoughts as you explore :)</li>
-                <li>Keep in mind that this is a prototype so some buttons/inputs may not do anything and that is ok!</li>
+                <li><strong>Main task: </strong>Set-up a relaxing Autumn work background, make sure to look through the different audio options we provide for your background video</li>
+                <li><strong>Subtask 1: </strong>Without leaving the homepage, describe what you would select first. If you would leave without clicking anywhere, please explain why.</li>
+                <li><strong>Subtask 2: </strong>In your work session, schedule a break with a friend in your free time between 12-12:45.</li>
+                <li><strong>Subtask 3: </strong>Browse our selection of guided meditation, choose which meditation you would like to start.</li>
+                <li><strong>Subtask 4: </strong>In your own words, describe how you might benefit from using this application.</li>
             </ol>
         </div>
         <div class="subheader">
-            <h4 class="title">Sub-Tasks</h4>
-        </div>
-        <div class="list-container">
-            <ol>
-                <li>Without leaving the homepage, describe what you would select first. <strong>Do not select anything yet.</strong> If you would leave without clicking anywhere, please explain why.
-                </li>
-                <li>In your work session, schedule a break with a friend in your free time between 12-12:45.</li>
-                <li>Browse our selection of guided meditation, choose which meditation you would like to start.</li>
-                <li>In your own words, describe how you might benefit from using this application.</li>
-            </ol>
-        </div>
-        <div class="subheader">
-            <h4 class="title">Questionairre</h4>
+            <h4 class="title">Questionnaire</h4>
         </div>
         <div class="list-container">
             <ol>
@@ -255,19 +284,18 @@
         <div class="subheader">
             <h4 class="title">Results</h4>
         </div>
-        <div class="list-container">
-            <ol>
-                <li><a href="https://app.usertesting.com/v/3517a6b9-def7-4650-9791-1eba730c892b?encrypted_video_handle=e1cbeb20-d0e6-45ba-ad3c-16f8473f8180#!/notes&shared_via=link" target="_blank">First User</a></li>
-                <li><a href="https://app.usertesting.com/v/657d0687-9735-4d68-b040-a2e20421a038?encrypted_video_handle=3a4ee2cb-1775-41b2-abef-7656d028d53f#!/notes&shared_via=link" target="_blank">Second User</a></li>
-                <li><a href="https://app.usertesting.com/v/011cb873-2257-483b-b505-8b95beaea8c0?encrypted_video_handle=82e12c1a-d189-42eb-aa60-c77f413510cd#!/notes&shared_via=link" target="_blank">Third User</a></li>
-            </ol>
+        <div class="description">
+            <p>If you would like to hear our users' feedback in their own words, please watch the user testing videos for <a href="https://app.usertesting.com/v/3517a6b9-def7-4650-9791-1eba730c892b?encrypted_video_handle=e1cbeb20-d0e6-45ba-ad3c-16f8473f8180#!/notes&shared_via=link" target="_blank">user 1</a>, 
+                <a href="https://app.usertesting.com/v/657d0687-9735-4d68-b040-a2e20421a038?encrypted_video_handle=3a4ee2cb-1775-41b2-abef-7656d028d53f#!/notes&shared_via=link" target="_blank">user 2</a>, and 
+                <a href="https://app.usertesting.com/v/011cb873-2257-483b-b505-8b95beaea8c0?encrypted_video_handle=82e12c1a-d189-42eb-aa60-c77f413510cd#!/notes&shared_via=link" target="_blank">user 3</a>.
+            </p>
         </div>
         <div class="subheader">
             <h4 class="title">Analysis</h4>
         </div>
         <div class="list-container-column">
             <p>
-                First User: This reviewer pointed out that we may have over shot it when we were attempting to solve our contrast issues. She pointed out issues with how "black" our application appears
+                <strong>User 1:</strong> <br>This reviewer pointed out that we may have over shot it when we were attempting to solve our contrast issues. She pointed out issues with how "black" our application appears
                 and in hindsight this critique absolutely has some merit. Instead of reducing all of the color in the background entirely we could likely have found a way to dilute it
                 and still keep the app vibrant while maintaining a reasonable level of contrast. 
             </p>
@@ -283,13 +311,21 @@
             </p>
             <br>
             <p>
-                Second User: This reviewer gave overall very positive feedback but was initially confused by our calendar functionality. Specifically, we offer a calendar that shows when your friends may be available to take a break throughout the workday. She initially thought that the availablity slots were already-scheduled breaks, rather than blocks where your friends may be available. She eventually figured out the actual functionality, but in the future we would like to make this less confusing. 
+            <strong>User 2:</strong> <br>This reviewer gave overall very positive feedback but was initially confused by our calendar functionality. Specifically, we offer a calendar that shows when your friends may be available to take a break throughout the workday. She initially thought that the availablity slots were already-scheduled breaks, rather than blocks where your friends may be available. She eventually figured out the actual functionality, but in the future we would like to make this less confusing. 
             </p>
+            <br>
             <p>
                 Additionally, this reviewer had a slight misinterpretation of the background scene. She interpreted the background scene as social -- that users pick a background to watch with friends, rather than play as background video/audio for work. We did not intend this, though this could be a useful feature to add. 
             </p>
             <br>
-            <p>FILL IN WITH THIRD USER</p>
+            <p>
+                <strong>User 3:</strong> <br> This reviewer gave very positive feedback. They noted that the site was clear and easy to use, and that it would allow them to relax while working.
+            </p>
+            <br>
+            <p>
+                One thing that we noticed is that although the reviewer noted that they found it easy to complete the second subtask (schedule a break with a friend), it seemed to take them a while to discover that they needed to use the dropdown
+                menu to find the "break with friends" page. We could have made this easier by revising our navigation options to make page-to-page navigation a little more obvious.
+            </p>
         </div>
     </main>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400&display=swap" rel="stylesheet">
